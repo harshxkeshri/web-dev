@@ -6,6 +6,57 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="/submit" method="post">
+
+  <!-- Label and Textarea for User Comments -->
+  <label for="comments">Enter your comments:</label>
+
+  <textarea
+    id="comments"
+    name="comments"
+    rows="4"
+    placeholder="Type your comments here"
+    required>
+  </textarea>
+
+  <!-- Button to Submit the Form -->
+  <button type="submit">Submit</button>
+
+
+  <form action="/submit" method="post">
+
+  <!-- Fieldset with Legend for Personal Information -->
+  <fieldset>
+
+    <legend>Personal Information</legend>
+
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName" required />
+
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName" required />
+
+  </fieldset>
+
+
+  <!-- Fieldset with Legend for Contact Information -->
+  <fieldset>
+
+    <legend>Contact Information</legend>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required />
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required />
+
+  </fieldset>
+
+
+  <button type="submit">Submit</button>
+
+  
+</form>
+</form>
 </body>
 </html>
