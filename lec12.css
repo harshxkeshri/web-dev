@@ -13,6 +13,10 @@ h1{
 
 p{
     color: green;
+    border: 1px solid black;
+    padding: 15px;
+    margin: 15px;
+    box-sizing: border-box;
 }
 
 .note{
@@ -20,4 +24,11 @@ p{
 }
 #intro{
     color: purple;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  padding: 20px;
+  border: 2px solid #000;
+  margin: 10px;
 }
