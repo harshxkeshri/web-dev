@@ -10,3 +10,14 @@ p{
 h1{
     background-color: rgb(209, 182, 145);
 }
+
+p{
+    color: green;
+}
+
+.note{
+    color: orange;
+}
+#intro{
+    color: purple;
+}
